@@ -1,12 +1,4 @@
-#!/usr/bin/env python3
-"""Cryptographically Secure Password & Passphrase Generator CLI Application.
 
-This module provides an enterprise-grade, cryptographically secure password and
-passphrase generator adhering to PEP 8 standards. It includes strict set
-compliance, ambiguous character filtering, Diceware passphrase generation,
-a theoretical entropy calculation engine, system clipboard integration, and an
-embedded unit test suite.
-"""
 
 from dataclasses import dataclass
 import math
