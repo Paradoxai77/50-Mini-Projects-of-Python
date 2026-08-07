@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-"""Modular QR Code Generator CLI Application.
-
-This module provides a modular, production-ready QR code generator written in Python.
-It utilizes `qrcode` and `Pillow` (PIL) to generate custom QR codes from user-supplied
-text/URLs with customizable foreground (fill) and background colors, robust input
-validation, automatic file extension handling, cross-platform image viewer launcher,
-and an embedded unit test suite.
-"""
 
 from dataclasses import dataclass
 import os
